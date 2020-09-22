@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cim>Advanced DevOps Methods for Legacy Systems</cim>
+    <halllgatok>
+        <hallgato>
+            <nev>Kovacs Roland</nev>
+            <lakcim>Miskolc, Avas utca 1.</lakcim>
+        </hallgato>
+        <hallgato>
+            <nev>Szabo Peter</nev>
+            <lakcim>Miskolc, Tapolca utca 1.</lakcim>
+        </hallgato>
+    </halllgatok>
+    <helyszin>Debreceni Egyetem</helyszin>
+    <eloado>
+        <nev>Nemeth Kalman</nev>
+        <adoszam>521654654</adoszam>
+        <lakcim>Debrecen, Egyetem utca 4.</lakcim>
+    </eloado>
+    <datum>2020. Szeptember 11.</datum>
+</konferencia>
