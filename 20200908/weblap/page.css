@@ -1,0 +1,36 @@
+body {
+    background-image: url('../kepek/bliss.jpg');
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+ .images {
+    width: 50%;
+    float: right;
+  }
+  .background {
+    opacity: 0.5;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
