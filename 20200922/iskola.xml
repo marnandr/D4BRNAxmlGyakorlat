@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE iskola SYSTEM "iskola.dtd">
+
+<iskola>
+    <tanar kod="K1">
+        <nev>Kovacs Béla</nev>
+        <szak>Informatika</szak>
+    </tanar>
+    <tanar kod="K2">
+        <nev>Dr. Szakolcai Péter</nev>
+        <szak>Kémia</szak>
+    </tanar>
+    <tantargy kod="CHEMISTRY101" oktato="K2">
+        <tnev>Bevezetés a kémiába</tnev>
+        <osztaly>A1AM</osztaly>
+    </tantargy>
+    <tantargy kod="PROGRAMMING204" oktato="K1">
+        <tnev>Programtervezési minták</tnev>
+        <osztaly>G3BPI</osztaly>
+    </tantargy>
+</iskola>

@@ -1,0 +1,13 @@
+<!-- Orarend definition -->
+<!ELEMENT orarend (ora+)>
+<!ELEMENT ora ( targy, idopont, helyszin, oktato, szak )>
+<!ATTLIST ora id ID #REQUIRED>
+<!ATTLIST ora tipus CDATA #REQUIRED>
+<!ELEMENT targy (#PCDATA)>
+<!ELEMENT idopont (#PCDATA) >
+<!ATTLIST idopont nap CDATA >
+<!ATTLIST idopont tol CDATA >
+<!ATTLIST idopont ig CDATA >
+<!ELEMENT helyszin(#PCDATA) >
+<!ELEMENT oktato(#PCDATA) >
+<!ELEMENT szak(#PCDATA) >

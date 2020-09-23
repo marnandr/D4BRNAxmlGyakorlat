@@ -1,0 +1,15 @@
+<!-- Iskola definition -->
+<!ELEMENT iskola (tanar+, tantargy+)>
+
+<!-- Tanar definition -->
+<!ELEMENT tanar (nev, szak)>
+<!ATTLIST tanar kod ID #REQUIRED>
+<!ELEMENT nev (#PCDATA)>
+<!ELEMENT szak (#PCDATA)>
+
+<!-- Tantargy definition -->
+<!ELEMENT tantargy (tnev, osztaly)>
+<!ATTLIST tantargy kod ID #REQUIRED>
+<!ATTLIST tantargy oktato IDREF #REQUIRED>
+<!ELEMENT tnev (#PCDATA)>
+<!ELEMENT osztaly (#PCDATA)>

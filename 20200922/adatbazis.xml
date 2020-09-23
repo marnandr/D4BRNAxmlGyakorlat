@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE dolgozok [
+    <!ELEMENT dolgozok (dolgozo)+>
+    <!ELEMENT dolgozo (nev, fizetes)>
+    <!ATTLIST dolgozo kod ID #REQUIRED>
+    <!ELEMENT nev (#PCDATA)>
+    <!ELEMENT fizetes (#PCDATA)>
+]>
+
+<dolgozok>
+    <dolgozo kod="D1">
+        <nev>Szabo Roland</nev>
+        <fizetes>350K</fizetes>
+    </dolgozo>
+    <dolgozo kod="D2">
+        <nev>Demeter Péter</nev>
+        <fizetes>220K</fizetes>
+    </dolgozo>
+    <dolgozo kod="D3">
+        <nev>Kálmán Asztrid</nev>
+        <fizetes>165K</fizetes>
+    </dolgozo>
+    <dolgozo kod="D4">
+        <nev>Orosz Vladimir</nev>
+        <fizetes>440K</fizetes>
+    </dolgozo>
+    <dolgozo kod="D5">
+        <nev>Francia Gábor</nev>
+        <fizetes>300K</fizetes>
+    </dolgozo>
+    <dolgozo kod="D6">
+        <nev>Németh Zoltán Kálmán</nev>
+        <fizetes>240K</fizetes>
+    </dolgozo>
+</dolgozok>
