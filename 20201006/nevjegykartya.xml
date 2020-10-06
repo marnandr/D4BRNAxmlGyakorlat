@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="nevjegykartya.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<nevjegykartyak>
+    <nevjegykartya id="K1">
+        <nev>Balogh Adalbert</nev>
+        <ceg>
+            <nev>Random Zrt.</nev>
+            <cim>
+                <iranyitoszam>4080</iranyitoszam>
+                <varos>Hajdunanas</varos>
+                <utca>Bocskai</utca>
+                <hazszam>34</hazszam>
+            </cim>
+            <telefon korzet="52">4445556</telefon>
+            <weblap>therandom.com</weblap>
+        </ceg>
+        <beosztas>Head of Marketing</beosztas>
+        <telefon korzet="30">3334445</telefon>
+        <email>adalbert.balogh@therandom.com</email>
+    </nevjegykartya>
+    <nevjegykartya id="K2">
+        <nev>Kovacs Balazs</nev>
+        <ceg>
+            <nev>Random Zrt.</nev>
+            <cim>
+                <iranyitoszam>4080</iranyitoszam>
+                <varos>Hajdunanas</varos>
+                <utca>Bocskai</utca>
+                <hazszam>34</hazszam>
+            </cim>
+            <telefon korzet="52">4445556</telefon>
+            <weblap>therandom.com</weblap>
+        </ceg>
+        <beosztas>Configuration Manager</beosztas>
+        <telefon korzet="30">3362415</telefon>
+        <email>balazs.kovacs@therandom.com</email>
+    </nevjegykartya>
+</nevjegykartyak>

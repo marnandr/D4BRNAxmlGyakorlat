@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="ember.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<ember>
+    <nev1>P1</nev1>
+    <fizetes>300</fizetes>
+    <nev>Random Janos</nev>
+</ember>
