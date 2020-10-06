@@ -7,11 +7,18 @@
                 <xs:element name="a" type="xs:ID"/>
                 <xs:element name="b">
                     <xs:complexType>
-                        <xs:attribute name="unknown1"></xs:attribute>
-                        <xs:attribute name="unknown2"></xs:attribute>
+                        <xs:attribute name="x"></xs:attribute>
+                        <xs:attribute name="y"></xs:attribute>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="c" type="xs:IDREFS"/>
+                <xs:element name="c">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="unknown1"/>
+                            <xs:element name="unknown2"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
