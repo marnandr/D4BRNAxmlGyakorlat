@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="A">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="a" type="xs:ID"/>
+                <xs:element name="b">
+                    <xs:complexType>
+                        <xs:attribute name="unknown1"></xs:attribute>
+                        <xs:attribute name="unknown2"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="c" type="xs:IDREFS"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ABConnector">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="refA" type="xs:IDREF"/>
+                <xs:element name="refB" type="xs:IDREF"/>
+                <xs:element name="c"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="B">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="a" type="xs:ID"></xs:element>
+                <xs:element name="b">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="x"></xs:element>
+                            <xs:element name="y"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="C">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="a" type="xs:ID"/>
+                <xs:element name="b"/>
+                <xs:element name="Bref" type="xs:IDREF"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

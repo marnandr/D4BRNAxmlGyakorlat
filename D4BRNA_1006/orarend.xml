@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="orarend.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<orarend>
+    <ora id="1" tipus="eloadas">
+        <targy>Mesterseges Intelligencia</targy>
+        <idopont nap="Hetfo" tol="12:00" ig="14:00"></idopont>
+        <helyszin>XXX eloado</helyszin>
+        <oktato>Dr. Dudas Laszlo</oktato>
+        <szak>G3BIW</szak>
+    </ora>
+    <ora id="2" tipus="gyakorlat">
+        <targy>Integralt vallalti rendszerek</targy>
+        <idopont nap="Kedd" tol="10:00" ig="12:00"></idopont>
+        <helyszin>In/15</helyszin>
+        <oktato>Bikfalvi Peter</oktato>
+        <szak>B3BIW</szak>
+    </ora>
+    <ora id="3" tipus="eloadas">
+        <targy>Adatkezeles XML kornyezetben</targy>
+        <idopont nap="Kedd" tol="12:00" ig="14:00"></idopont>
+        <helyszin>XXXVIII</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>G3BIW</szak>
+    </ora>
+    <ora id="3" tipus="gyakorlat">
+        <targy>Adatkezeles XML kornyezetben</targy>
+        <idopont nap="Kedd" tol="14:00" ig="16:00"></idopont>
+        <helyszin>In/201</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>G3BIW</szak>
+    </ora>
+    <ora id="1" tipus="gyakorlat">
+        <targy>Mesterseges Intelligencia</targy>
+        <idopont nap="Kedd" tol="16:00" ig="18:00"></idopont>
+        <helyszin>In/15</helyszin>
+        <oktato>Dr. Dudas Laszlo</oktato>
+        <szak>G3BIW</szak>
+    </ora>
+    <ora id="2" tipus="eloadas">
+        <targy>Integralt vallalti rendszerek</targy>
+        <idopont nap="Szerda" tol="12:00" ig="14:00"></idopont>
+        <helyszin>In/15</helyszin>
+        <oktato>Dr. Samad Dadvandipour</oktato>
+        <szak>B3BIW</szak>
+    </ora>
+</orarend>
