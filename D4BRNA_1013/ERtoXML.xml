@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ERtoXSD.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<!-- README: Under contruction -->
+<fo>
+    <A>
+      <B>1</B>
+      <C>2</C>
+    </A>
+    <B b1="1"></B>
+    <C c1="2"></C>
+    <AC ac1="1" ac2="2"></AC>
+</fo>
