@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!ELEMENT szemelyek (szemely+)>
 <!ATTLIST szemely id CDATA #REQUIRED>
 <!ELEMENT szemely (nev, kor, varos)>

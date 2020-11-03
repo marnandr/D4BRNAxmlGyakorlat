@@ -11,7 +11,6 @@ import java.io.IOException;
 import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
 
-
 public class DomD4BRNA {
     public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException {
         File xmlFile = new File("D4BRNA_1103/szemelyek.xml");
