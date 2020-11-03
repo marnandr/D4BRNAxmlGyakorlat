@@ -22,7 +22,7 @@ public class DomParserD4BRNA {
         doc.getDocumentElement().normalize();
 
         System.out.println("Root element: " + doc.getDocumentElement().getNodeName());
-        NodeList nList = doc.getElementsByTagName("class");
+        NodeList nList = doc.getElementsByTagName("student");
         System.out.println("--------------------------------------------------------");
 
         for (int i = 0; i < nList.getLength(); i++) {
@@ -31,7 +31,7 @@ public class DomParserD4BRNA {
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                 Element elem = (Element) nNode;
 
-                
+                System.out.println("\nCurrent Element: " + nNode.getNodeName());
 
                 String rollno = elem.getAttribute("rollno");
 
@@ -47,11 +47,11 @@ public class DomParserD4BRNA {
                 Node node4 = elem.getElementsByTagName("age").item(0);
                 String age = node4.getTextContent();
 
-                System.out.println("rollno: " + rollno);
-                System.out.println("név: " + firstname);
-                System.out.println("kor: " + lastname);
-                System.out.println("város: " + nickname);
-                System.out.println("age: " + age);
+                System.out.println("Student roll no: " + rollno);
+                System.out.println("First Name: " + firstname);
+                System.out.println("Last Name: " + lastname);
+                System.out.println("Nick Name: " + nickname);
+                System.out.println("Age: " + age);
 
             }
         }
