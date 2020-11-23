@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="XMLSchemaD4BRNA.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<ovoda id = "INT001">
+    <nev>Fox River Óvoda</nev>
+    <varos>Tiszaújváros</varos>
+    <telefonszam>+364242069</telefonszam>
+    <ovonok>
+        <ovono id="OV001" csoportid="OCS101">
+            <vezeteknev>Balogh</vezeteknev>
+            <keresztnev>Helga</keresztnev>
+            <szulinap>1974-04-20</szulinap>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Alfréd</utca>
+                <hazszam>15</hazszam>
+            </cim>
+            <fokozat>PED1</fokozat>
+        </ovono>
+        <ovono id="OV002" csoportid="OCS102">
+            <vezeteknev>Kovacs</vezeteknev>
+            <keresztnev>Jázmin</keresztnev>
+            <szulinap>1980-04-20</szulinap>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Kurik</utca>
+                <hazszam>30</hazszam>
+            </cim>
+            <fokozat>PED3</fokozat>
+        </ovono>
+        <ovono id="OV003" csoportid="OCS103">
+            <vezeteknev>Antal</vezeteknev>
+            <keresztnev>Jázmin</keresztnev>
+            <szulinap>1988-09-11</szulinap>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Irak</utca>
+                <hazszam>43</hazszam>
+            </cim>
+            <fokozat>PED2</fokozat>
+        </ovono>
+        <ovono id="OV004" csoportid="OCS104">
+            <vezeteknev>Menthetetlen</vezeteknev>
+            <keresztnev>Dorka</keresztnev>
+            <szulinap>1990-04-20</szulinap>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Jupiter</utca>
+                <hazszam>30</hazszam>
+            </cim>
+            <fokozat>PED3</fokozat>
+        </ovono>
+    </ovonok>
+    <ovodasok>
+        <ovodas id="OD000" csoportid="OCS101">
+            <vezeteknev>Helmeczi</vezeteknev>
+            <keresztnev>Sándor</keresztnev>
+            <szulinap>2015-04-20</szulinap>
+            <nem>F</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Balázs</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD001" csoportid="OCS101">
+            <vezeteknev>Kovács</vezeteknev>
+            <keresztnev>Dalma</keresztnev>
+            <szulinap>2015-08-14</szulinap>
+            <nem>N</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Kenderes</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD002" csoportid="OCS101">
+            <vezeteknev>Farkas</vezeteknev>
+            <keresztnev>Félix</keresztnev>
+            <szulinap>2015-07-14</szulinap>
+            <nem>F</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Kólás</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD003" csoportid="OCS101">
+            <vezeteknev>Istenes</vezeteknev>
+            <keresztnev>Dorina</keresztnev>
+            <szulinap>2015-05-20</szulinap>
+            <nem>N</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Görbe</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD004" csoportid="OCS101">
+            <vezeteknev>Hajós</vezeteknev>
+            <keresztnev>Csaba</keresztnev>
+            <szulinap>2015-04-12</szulinap>
+            <nem>F</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Sáros</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD005" csoportid="OCS102">
+            <vezeteknev>Kapszi</vezeteknev>
+            <keresztnev>Erika</keresztnev>
+            <szulinap>2016-04-04</szulinap>
+            <nem>N</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Patak</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD006" csoportid="OCS102">
+            <vezeteknev>Lövős</vezeteknev>
+            <keresztnev>Miklós</keresztnev>
+            <szulinap>2016-06-14</szulinap>
+            <nem>F</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Kémia</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD007" csoportid="OCS102">
+            <vezeteknev>Varga</vezeteknev>
+            <keresztnev>Zsuzsa</keresztnev>
+            <szulinap>2016-12-10</szulinap>
+            <nem>N</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Kanta András</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD008" csoportid="OCS102">
+            <vezeteknev>Orbit</vezeteknev>
+            <keresztnev>András</keresztnev>
+            <szulinap>2016-11-18</szulinap>
+            <nem>F</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Szuuper</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD009" csoportid="OCS102">
+            <vezeteknev>Pattantyús</vezeteknev>
+            <keresztnev>Liza</keresztnev>
+            <szulinap>2016-10-08</szulinap>
+            <nem>N</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Szeles</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD010" csoportid="OCS103">
+            <vezeteknev>Kapós</vezeteknev>
+            <keresztnev>Mátyás</keresztnev>
+            <szulinap>2017-10-08</szulinap>
+            <nem>F</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Hujbere</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD011" csoportid="OCS103">
+            <vezeteknev>Lyukas</vezeteknev>
+            <keresztnev>Georgina</keresztnev>
+            <szulinap>2017-09-01</szulinap>
+            <nem>N</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>XML</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD012" csoportid="OCS103">
+            <vezeteknev>Fábián</vezeteknev>
+            <keresztnev>Arnold</keresztnev>
+            <szulinap>2017-12-01</szulinap>
+            <nem>F</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Nemtudom</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD013" csoportid="OCS103">
+            <vezeteknev>Urgyán</vezeteknev>
+            <keresztnev>Nikoletta</keresztnev>
+            <szulinap>2017-07-01</szulinap>
+            <nem>N</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Késő</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD014" csoportid="OCS103">
+            <vezeteknev>Keszthelyi</vezeteknev>
+            <keresztnev>Gábor</keresztnev>
+            <szulinap>2017-04-20</szulinap>
+            <nem>F</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Lehet</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD015" csoportid="OCS104">
+            <vezeteknev>Kocsis</vezeteknev>
+            <keresztnev>Andrienn</keresztnev>
+            <szulinap>2018-07-01</szulinap>
+            <nem>N</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Már</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD016" csoportid="OCS104">
+            <vezeteknev>Kerekes</vezeteknev>
+            <keresztnev>Tibor</keresztnev>
+            <szulinap>2018-07-11</szulinap>
+            <nem>F</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Ilyenkor</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD017" csoportid="OCS104">
+            <vezeteknev>Kuik</vezeteknev>
+            <keresztnev>Enikő</keresztnev>
+            <szulinap>2018-02-11</szulinap>
+            <nem>N</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Unom</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD018" csoportid="OCS104">
+            <vezeteknev>Köves</vezeteknev>
+            <keresztnev>Konrád</keresztnev>
+            <szulinap>2018-08-12</szulinap>
+            <nem>F</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Az</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+        <ovodas id="OD019" csoportid="OCS104">
+            <vezeteknev>Csacska</vezeteknev>
+            <keresztnev>Anna</keresztnev>
+            <szulinap>2018-04-20</szulinap>
+            <nem>N</nem>
+            <cim>
+                <iranyitoszam>3515</iranyitoszam>
+                <varos>Tiszaújváros</varos>
+                <utca>Egészet</utca>
+                <hazszam>15</hazszam>
+            </cim>
+        </ovodas>
+    </ovodasok>
+    <csoportok>
+        <csoport id = "OCS101" ovodaid="INT001">
+            <nev>Pillangó</nev>
+            <evfolyam>Előkészítő</evfolyam>
+        </csoport>
+        <csoport id = "OCS102" ovodaid="INT001">
+            <nev>Rozmaring</nev>
+            <evfolyam>Nagy</evfolyam>
+        </csoport>
+        <csoport id = "OCS103" ovodaid="INT001">
+            <nev>Micimackó</nev>
+            <evfolyam>Középső</evfolyam>
+        </csoport>
+        <csoport id = "OCS104" ovodaid="INT001">
+            <nev>Csillámpor</nev>
+            <evfolyam>Kis</evfolyam>
+        </csoport>
+    </csoportok>
+</ovoda>
